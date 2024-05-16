@@ -1,0 +1,110 @@
+body,
+head {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.firstdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 100%;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.itemdiv h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 50%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+.suggestions li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.firstpage .suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.itemnames {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.secondpage {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.secondinnerdiv {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+}
+
+.detailbox {
+  padding: 30px;
+}
+
+
+.itemName {
+  background-color: #e3dddd;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.itemquantity {
+  margin-bottom: 20px;
+}
+
+.itemValue {
+  background-color: #e3dddd;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+}
